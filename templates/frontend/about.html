@@ -1,0 +1,21 @@
+{% extends 'frontend/base.html' %}
+{% load staticfiles %}
+{%block title%} Car price {% endblock %}
+{%block content %}
+<div class="jumbotron">
+    <h1 class="display-3">Porche Car price</h1>
+     
+    <hr class="my-2">
+    <p>Model 718 = $59,000</p>
+    <img style="width: 300px; height:200px;" src="{% static 'images/porche2.jpg' %}"/>
+     <p>Model 911 = $99,200</p>
+     <img style="width: 300px; height:200px;" src="{% static 'images/porche1.jpg' %}"/>
+      <p>Model taycan = $100,000</p>
+      <img style="width: 300px; height:200px;" src="{% static 'images/porche.jpg' %}"/>
+       <p>Model panamera = $109,000</p>
+       <img style="width: 300px; height:200px;" src="{% static 'images/porche4.jpg' %}"/>
+        <p>Model macan = $52,000</p>
+         <img style="width: 300px; height:200px;" src="{% static 'images/porche3.jpg' %}"/>
+    
+</div>
+{% endblock %}
